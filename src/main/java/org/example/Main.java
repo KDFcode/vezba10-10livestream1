@@ -8,6 +8,7 @@ public class  Main {
 
 
         bodyCalculator BMI = new bodyCalculator(80,1.93); //tezina u kg,visina u metrima
-        System.out.println(BMI.calculateBMI());
+      //  System.out.println(BMI.calculateBMI());
+        BMI.print();
     }
 }
