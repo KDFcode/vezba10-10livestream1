@@ -35,4 +35,9 @@ public bodyCalculator()
         vracajOvo= mass/(height*height);
         return vracajOvo;
     }
+
+    public void print()
+    {
+        System.out.println(" vas BMI je "+ calculateBMI());
+    }
 }
